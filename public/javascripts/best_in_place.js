@@ -330,16 +330,16 @@ jQuery.fn.best_in_place = function() {
 
 
 /**
-* @name             Elastic
-* @descripton           Elastic is Jquery plugin that grow and shrink your textareas automaticliy
-* @version            1.6.5
-* @requires           Jquery 1.2.6+
+*  @name              Elastic
+*  @descripton            Elastic is Jquery plugin that grow and shrink your textareas automaticliy
+*  @version            1.6.5
+*  @requires            Jquery 1.2.6+
 *
-* @author             Jan Jarfalk
-* @author-email         jan.jarfalk@unwrongest.com
-* @author-website         http://www.unwrongest.com
+*  @author              Jan Jarfalk
+*  @author-email          jan.jarfalk@unwrongest.com
+*  @author-website          http://www.unwrongest.com
 *
-* @licens             MIT License - http://www.opensource.org/licenses/mit-license.php
+*  @licens              MIT License - http://www.opensource.org/licenses/mit-license.php
 */
 
 (function(jQuery){
@@ -365,13 +365,13 @@ jQuery.fn.best_in_place = function() {
           return false;
         }
 
-        var $textarea = jQuery(this),
-          $twin   = jQuery('<div />').css({'position': 'absolute','display':'none','word-wrap':'break-word'}),
-          lineHeight  = parseInt($textarea.css('line-height'),10) || parseInt($textarea.css('font-size'),'10'),
-          minheight = parseInt($textarea.css('height'),10) || lineHeight*3,
-          maxheight = parseInt($textarea.css('max-height'),10) || Number.MAX_VALUE,
-          goalheight  = 0,
-          i       = 0;
+        var $textarea   =  jQuery(this),
+          $twin         =  jQuery('<div />').css({'position': 'absolute','display':'none','word-wrap':'break-word'}),
+          lineHeight    =  parseInt($textarea.css('line-height'),10) || parseInt($textarea.css('font-size'),'10'),
+          minheight     =  parseInt($textarea.css('height'),10) || lineHeight*3,
+          maxheight     =  parseInt($textarea.css('max-height'),10) || Number.MAX_VALUE,
+          goalheight    =  0,
+          i             =  0;
 
         // Opera returns max-height of -1 if not set
         if (maxheight < 0) { maxheight = Number.MAX_VALUE; }
@@ -456,7 +456,6 @@ jQuery.fn.best_in_place = function() {
         update();
 
       });
-
-        }
-    });
+    }
+  });
 })(jQuery);

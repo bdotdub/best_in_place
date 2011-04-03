@@ -331,15 +331,15 @@ jQuery.fn.best_in_place = function() {
 
 /**
 *  @name              Elastic
-*  @descripton            Elastic is Jquery plugin that grow and shrink your textareas automaticliy
-*  @version            1.6.5
-*  @requires            Jquery 1.2.6+
+*  @descripton        Elastic is Jquery plugin that grow and shrink your textareas automaticliy
+*  @version           1.6.5
+*  @requires          Jquery 1.2.6+
 *
-*  @author              Jan Jarfalk
-*  @author-email          jan.jarfalk@unwrongest.com
-*  @author-website          http://www.unwrongest.com
+*  @author            Jan Jarfalk
+*  @author-email      jan.jarfalk@unwrongest.com
+*  @author-website    http://www.unwrongest.com
 *
-*  @licens              MIT License - http://www.opensource.org/licenses/mit-license.php
+*  @licens            MIT License - http://www.opensource.org/licenses/mit-license.php
 */
 
 (function(jQuery){
